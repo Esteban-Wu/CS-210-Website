@@ -1,3 +1,11 @@
+# Instructions to Edit
+* Clone this repo
+* Make sure you're running node version 16
+* Run `npm run deploy` to deploy changes to the site
+* To push source code to the repo, please commit and push as normal
+* See [this guide](https://github.com/gitname/react-gh-pages) for more details
+
+# (From original author below)
 # React Nice Resume :page_with_curl:
 
 ### [LIVE DEMO](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
