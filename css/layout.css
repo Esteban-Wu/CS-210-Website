@@ -803,8 +803,10 @@ footer .social-links li:first-child { margin-left: 0; }
    letter-spacing: 1px;
 }
 .logo {
-   width: auto;
+   margin-top: 0px;
+   width: 34px;
    height: 20px;
+   margin-right: 5px;
  }
 .primary-btn{
    background-color: #BC2C22 !important;
