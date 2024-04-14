@@ -803,7 +803,7 @@ footer .social-links li:first-child { margin-left: 0; }
    letter-spacing: 1px;
  }
 .logo {
-   width: 36px; /* Adjust width as needed */
+   width: auto;
    height: auto;
    margin-right: 5px; /* Adjust margin as needed */
  }
@@ -815,4 +815,20 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .center-text {
    text-align: center;
+}
+.floating-image-container {
+   position: relative;
+   height: 100%;
+}
+.floating-image {
+   position: absolute;
+   animation: floatUpDown 3s ease-in-out infinite;
+}
+@keyframes floatUpDown {
+   0%, 100% {
+     transform: translateY(0);
+   }
+   50% {
+     transform: translateY(-20px); /* Adjust the distance the image floats */
+   }
 }
