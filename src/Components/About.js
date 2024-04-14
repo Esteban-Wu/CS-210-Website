@@ -5,56 +5,26 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
-
     return (
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
-              <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
-              />
+            <div className="seven columns main-col body-text">
+              <h2 style={{ fontFamily: 'Marrion', fontSize: 32 }}>About</h2>
+              <p>The Mercedes-Benz AI Palette is a set of <span className="bold-body-text red">conversational AI personas</span> that a 
+                driver can interact with. We crafted three personas — Football Commentator, Old Sport, and Art & Nature — to mimic the 
+                speech and personality of renowned figures like Peter Drury, Frank Sinatra, and David Attenborough. Powered by GenAI, 
+                these personas engage in <span className="bold-body-text red">dialogue</span>, react to <span className="bold-body-text red">events</span> such 
+                as turns and accelerations, and offer <span className="bold-body-text red">persona-specific interactions</span>.
+              </p>
             </div>
-            <div className="nine columns main-col">
-              <h2>About Me</h2>
-
-              <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div>
+            <div className="five columns">
+              <div className="floating-image-container">
+                <img
+                  className="floating-image"
+                  src="images/visual.png"
+                  alt="Visual"
+                />
               </div>
             </div>
           </div>
