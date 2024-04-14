@@ -180,7 +180,7 @@ ul#nav li.current a { color: #BC2C22; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: black;
    padding-top: 96px;
    padding-bottom: 200px;
    overflow: hidden;
@@ -637,7 +637,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #team {
-   background: #000524;
+   background: black;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -777,28 +777,19 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 /* Additional CSS */
-.marion-font {
-   font-family: 'Marion';
-}
-.arial-narrow-font {
-   font-family: 'Arial Narrow';
-}
 .body-text {
-   font-family: 'Arial Narrow';
-   font-size: 20px;
+   font-size: 16px;
 }
 .bold-body-text {
    font-weight: bold;
-   font-family: 'Arial Narrow';
-   font-size: 20px;
+   font-size: 16px;
 }
 .red {
    color: #BC2C22
 }
 .button-text {
    font-weight: bold;
-   font-family: 'Arial Narrow';
-   font-size: 20px;
+   font-size: 16px;
    color: white;
    letter-spacing: 1px;
 }
