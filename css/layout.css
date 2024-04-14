@@ -635,7 +635,7 @@ call-to-action .button {
 #team {
    background: black;
    padding-top: 96px;
-   padding-bottom: 102px;
+   padding-bottom: 140px;
    color: #636363;
 }
 #team .section-head { margin-bottom: 42px; }
@@ -797,9 +797,11 @@ footer .social-links li:first-child { margin-left: 0; }
  }
 .primary-btn{
    background-color: #BC2C22 !important;
+   border-radius: 3px;
 }
 .secondary-btn{
    background-color: #787878 !important;
+   border-radius: 3px;
 }
 .center-text {
    text-align: center;
