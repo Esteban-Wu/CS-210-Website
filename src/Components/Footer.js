@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { Link } from "react-scroll";
 
 class Footer extends Component {
   render() {
@@ -23,9 +24,21 @@ class Footer extends Component {
           </Fade>
 
           <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <Link
+              className="link"
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={750}
+            >
               <i className="icon-up-open"></i>
-            </a>
+            </Link>
+
+            {/* <a className="smoothscroll" title="Back to Top" href="#home">
+              <i className="icon-up-open"></i>
+            </a> */}
           </div>
         </div>
       </footer>

@@ -18,7 +18,7 @@ class Prototype extends Component {
       <section id="prototype">
         <Slide left duration={1300}>
           <div className="row">
-            <div className="seven columns">
+            <div className="seven columns main-col" style={{ height: '220px' }}>
               <div className="floating-image-container">
                 <img
                   className="floating-image"
@@ -27,7 +27,7 @@ class Prototype extends Component {
                 />
               </div>
             </div>
-            <div className="five columns main-col body-text">
+            <div className="five columns body-text">
               <h2 style={{ fontFamily: 'Marrion', fontSize: 32 }}>Prototype</h2>
               <p>Try out our most recent prototype of the Mercedes-Benz AI Palette on your tablet.</p>
               <row>
@@ -35,7 +35,7 @@ class Prototype extends Component {
                   <a href={"#"} className="button btn primary-btn">
                   <span className="button-text">Download</span>
                   </a>
-                  <a href={"#"} className="button btn github-btn">
+                  <a href={"#"} className="button btn secondary-btn">
                   <span className="button-text">GitHub</span>
                   </a>
                 </ul>

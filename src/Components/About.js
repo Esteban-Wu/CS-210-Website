@@ -18,7 +18,7 @@ class About extends Component {
                 as turns and accelerations, and offer <span className="bold-body-text red">persona-specific interactions</span>.
               </p>
             </div>
-            <div className="five columns">
+            <div className="five columns" style={{ height: '220px' }}>
               <div className="floating-image-container">
                 <img
                   className="floating-image"
