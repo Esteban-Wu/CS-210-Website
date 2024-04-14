@@ -803,7 +803,7 @@ footer .social-links li:first-child { margin-left: 0; }
    letter-spacing: 1px;
  }
 .logo {
-   width: auto;
+   width: 24px;
    height: auto;
    margin-right: 5px; /* Adjust margin as needed */
  }
