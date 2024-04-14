@@ -802,19 +802,9 @@ footer .social-links li:first-child { margin-left: 0; }
    color: white;
    letter-spacing: 1px;
 }
-.logo-text-container {
-   display: flex;
-   align-items: center;
- }
- .logo-container {
-   margin-right: 5px; /* Adjust as needed */
- }
- .logo-text-container span {
-   font-family: 'Marrion';
- }
 .logo {
-   width: 36px;
-   height: auto;
+   width: auto;
+   height: 20px;
  }
 .primary-btn{
    background-color: #BC2C22 !important;
@@ -843,12 +833,12 @@ footer .social-links li:first-child { margin-left: 0; }
    }
 }
 .profile-pic-container {
-   width: 150px;
-   height: 150px;
+   width: 100px;
+   height: 100px;
    border-radius: 50%;
    overflow: hidden;
    margin: 0 auto;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
  }
  
  .profile-pic {
