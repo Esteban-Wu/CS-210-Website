@@ -1,6 +1,7 @@
 # Instructions to Edit
 * Clone this repo
 * Make sure you're running node version 16
+* For local dev, run `npm start`. To propagate edits, run `npm run build`.
 * Run `npm run deploy` to deploy changes to the site
 * To push source code to the repo, please commit and push as normal
 * See [this guide](https://github.com/gitname/react-gh-pages) for more details
