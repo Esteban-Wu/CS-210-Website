@@ -182,7 +182,7 @@ ul#nav li.current a { color: #BC2C22; }
 #about {
    background: #000524;
    padding-top: 96px;
-   padding-bottom: 66px;
+   padding-bottom: 200px;
    overflow: hidden;
 }
 
@@ -231,7 +231,7 @@ ul#nav li.current a { color: #BC2C22; }
 #prototype {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 300px;
    overflow: hidden;
 }
 
@@ -412,7 +412,7 @@ ul#nav li.current a { color: #BC2C22; }
 #process {
    background: #ebeeee;
    padding-top: 90px;
-   padding-bottom: 60px;
+   padding-bottom: 150px;
 }
 #process h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -803,7 +803,7 @@ footer .social-links li:first-child { margin-left: 0; }
    letter-spacing: 1px;
  }
 .logo {
-   width: 50px; /* Adjust width as needed */
+   width: 36px; /* Adjust width as needed */
    height: auto;
    margin-right: 5px; /* Adjust margin as needed */
  }
