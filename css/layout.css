@@ -802,14 +802,19 @@ footer .social-links li:first-child { margin-left: 0; }
    color: white;
    letter-spacing: 1px;
 }
-.logo-container {
+.logo-text-container {
    display: flex;
    align-items: center;
-}
+ }
+ .logo-container {
+   margin-right: 5px; /* Adjust as needed */
+ }
+ .logo-text-container span {
+   font-family: 'Marrion';
+ }
 .logo {
    width: 36px;
    height: auto;
-   margin-right: 5px; /* Adjust margin as needed */
  }
 .primary-btn{
    background-color: #BC2C22 !important;
@@ -827,6 +832,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .floating-image {
    position: absolute;
    animation: floatUpDown 3s ease-in-out infinite;
+   margin-top: 50px;
 }
 @keyframes floatUpDown {
    0%, 100% {
@@ -842,6 +848,7 @@ footer .social-links li:first-child { margin-left: 0; }
    border-radius: 50%;
    overflow: hidden;
    margin: 0 auto;
+   margin-bottom: 50px;
  }
  
  .profile-pic {
