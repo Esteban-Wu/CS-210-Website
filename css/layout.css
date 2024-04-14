@@ -125,10 +125,8 @@ header .scrolldown a:hover { color: #0762f9; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 16px 'opensans-bold', sans-serif;
    width: 100%;
-   text-transform: uppercase;
-   letter-spacing: 2.5px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
@@ -174,7 +172,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #BC2C22; }
 
 
 /* ------------------------------------------------------------------ */
@@ -955,7 +953,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: white;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -1021,4 +1019,46 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+
+/* Additional CSS */
+.marion-font {
+   font-family: 'Marion';
+}
+
+.arial-narrow-font {
+   font-family: 'Arial Narrow';
+}
+.body-text {
+   font-family: 'Arial Narrow';
+   font-size: 20px;
+}
+.bold-body-text {
+   font-weight: bold;
+   font-family: 'Arial Narrow';
+   font-size: 20px;
+}
+.red {
+   color: #BC2C22
+}
+.button-text {
+   font-weight: bold;
+   font-family: 'Arial Narrow';
+   font-size: 20px;
+   color: white;
+   letter-spacing: 1px;
+ }
+.logo {
+   width: 20px; /* Adjust width as needed */
+   height: auto;
+   margin-right: 5px; /* Adjust margin as needed */
+ }
+.primary-btn{
+   background-color: #BC2C22 !important;
+}
+.secondary-btn{
+   background-color: #787878 !important;
+}
+.center-text {
+   text-align: center;
 }
