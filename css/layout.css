@@ -780,7 +780,6 @@ footer .social-links li:first-child { margin-left: 0; }
 .marion-font {
    font-family: 'Marion';
 }
-
 .arial-narrow-font {
    font-family: 'Arial Narrow';
 }
@@ -804,7 +803,7 @@ footer .social-links li:first-child { margin-left: 0; }
    letter-spacing: 1px;
  }
 .logo {
-   width: 20px; /* Adjust width as needed */
+   width: 50px; /* Adjust width as needed */
    height: auto;
    margin-right: 5px; /* Adjust margin as needed */
  }
