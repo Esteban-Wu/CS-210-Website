@@ -10,7 +10,7 @@ class Team extends Component {
         <Fade bottom duration={1000}>
           <div className="row">
             <div className="twelve columns collapsed body-text center-text">
-              <h2 style={{ fontFamily: 'Marrion', fontSize: 32 }}>Team</h2>
+              <h2 style={{ fontFamily: 'Marrion', fontSize: 32, marginBottom: '48px' }}>Team</h2>
             </div>
             <div class="row" className="twelve columns collapsed body-text center-text" style={{ marginBottom: "200px" }}>
               <div className="one columns"/>

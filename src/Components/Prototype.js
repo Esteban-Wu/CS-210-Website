@@ -18,7 +18,7 @@ class Prototype extends Component {
       <section id="prototype">
         <Slide left duration={1300}>
           <div className="row">
-            <div className="seven columns main-col" style={{ height: '220px' }}>
+            <div className="seven columns main-col" style={{ height: '320px' }}>
               <div className="floating-image-container">
                 <img
                   className="floating-image"
