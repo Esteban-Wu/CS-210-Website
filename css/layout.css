@@ -244,6 +244,13 @@ ul#nav li a:active { background-color: transparent !important; }
 #prototype h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
+#prototype h2 {
+   color: #000;
+}
+#prototype p {
+   line-height: 30px;
+   color: #333;
+}
 
 #prototype .header-col { padding-top: 9px; }
 #prototype .main-col { padding-right: 10%; }
@@ -414,6 +421,13 @@ ul#nav li a:active { background-color: transparent !important; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+#process h2 {
+   color: #fff;
+}
+#process p {
+   line-height: 30px;
+   color: #ccc;
 }
 
 /* process Content */
@@ -655,6 +669,13 @@ call-to-action .button {
    color: #ebeeee;
 }
 
+#team h2 {
+   color: #fff;
+}
+#team p {
+   line-height: 30px;
+   color: #ccc;
+}
 #team h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
@@ -844,21 +865,24 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Define background styles */
 .section-background {
-   background-image: url('../images/car_interior.png');
+   /* background-image: url('../images/car_interior.png'); */
+   background-image: url(https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg);
    background-size: cover;
    background-attachment: fixed; /* Fix the background image */
  }
  
  /* Define background image for specific sections */
  .about-background {
-   background-color: rgba(255, 255, 255, 0.8);
+   background-blend-mode: multiply;
+   background-color: rgba(40, 40, 40, 1);
  }
  .prototype-background {
-   background-color: rgba(155, 155, 155, 0.8);
+   box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.8);
  }
  .process-background {
-   background-color: rgba(105, 105, 105, 0.8);
+   box-shadow: inset 0 0 0 2000px rgba(40, 40, 40, 0.95);
  }
  .team-background {
-   background-color: rgba(55, 55, 55, 0.8);
+   background-blend-mode: multiply;
+   background-color: rgba(40, 40, 40, 1);
  }
