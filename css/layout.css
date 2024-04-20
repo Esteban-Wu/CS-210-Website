@@ -176,7 +176,6 @@ ul#nav li a:active { background-color: transparent !important; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: black;
    padding-top: 96px;
    padding-bottom: 200px;
    overflow: hidden;
@@ -845,3 +844,23 @@ footer .social-links li:first-child { margin-left: 0; }
 .navbar ul li > :not(.active) {
    color: white;
 }
+
+/* Define background styles */
+.section-background {
+   background-image: url('../images/car_interior.png');
+   background-size: cover;
+ }
+ 
+ /* Define background image for specific sections */
+ .about-background {
+   background-color: rgba(155, 155, 155, 0.8);
+ }
+ .prototype-background {
+   background-color: rgba(55, 55, 55, 0.8);
+ }
+ .process-background {
+   background-color: rgba(105, 105, 105, 0.8);
+ }
+ .team-background {
+   background-color: rgba(155, 155, 155, 0.8);
+ }
