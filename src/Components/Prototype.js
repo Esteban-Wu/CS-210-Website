@@ -15,7 +15,7 @@ class Prototype extends Component {
     if (!this.props.data) return null;
 
     return (
-      <section id="prototype">
+      <section id="prototype" className="section-background prototype-background" style={{backgroundImage: `images/car_interior.png`}}>
         <Slide left duration={1300}>
           <div className="row">
             <div className="seven columns main-col" style={{ height: '320px' }}>
@@ -28,7 +28,7 @@ class Prototype extends Component {
               </div>
             </div>
             <div className="five columns body-text">
-              <h2 style={{ fontFamily: 'Marrion', fontSize: 32 }}>Prototype</h2>
+              <h2 style={{ fontFamily: 'Marrion', fontSize: 32, marginBottom: 40 }}>Prototype</h2>
               <p>Try out our most recent prototype of the Mercedes-Benz AI Palette on your tablet.</p>
               <row>
                 <ul className="social">

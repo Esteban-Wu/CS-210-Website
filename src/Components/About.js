@@ -34,7 +34,7 @@ class About extends Component {
     };
 
     return (
-      <section id="about">
+      <section id="about" className="about-background section-background" style={{backgroundImage: `images/car_interior.png`}}>
         <Fade duration={1000}>
           <div className="row">
               <div className="twelve columns main-col body-text">
@@ -70,7 +70,7 @@ class About extends Component {
                         and sound like a real friend.
                       </p>
                     </div>
-                    <div className="five columns" style={{ height: '220px' }}>
+                    <div className="four columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
@@ -89,7 +89,7 @@ class About extends Component {
                         set as stretch goals.
                       </p>
                     </div>
-                    <div className="five columns" style={{ height: '220px' }}>
+                    <div className="four columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
@@ -108,7 +108,7 @@ class About extends Component {
                         <span className="bold-body-text red"> narrate landscapes</span> and <span className="bold-body-text red"> respond to the driver’s gestures</span>.
                       </p>
                     </div>
-                    <div className="five columns" style={{ height: '220px' }}>
+                    <div className="four columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
@@ -127,7 +127,7 @@ class About extends Component {
                         <span className="bold-body-text red"> RAG</span> for domain-specific knowledge insertion to enhance conversation quality.
                       </p>
                     </div>
-                    <div className="five columns" style={{ height: '220px' }}>
+                    <div className="four columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"

@@ -176,7 +176,6 @@ ul#nav li a:active { background-color: transparent !important; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: black;
    padding-top: 96px;
    padding-bottom: 200px;
    overflow: hidden;
@@ -196,8 +195,8 @@ ul#nav li a:active { background-color: transparent !important; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 135px;
+   height: 135px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -225,7 +224,6 @@ ul#nav li a:active { background-color: transparent !important; }
 /* ------------------------------------------------------------------ */
 
 #prototype {
-   background: #fff;
    padding-top: 90px;
    padding-bottom: 300px;
    overflow: hidden;
@@ -245,6 +243,13 @@ ul#nav li a:active { background-color: transparent !important; }
 }
 #prototype h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+}
+#prototype h2 {
+   color: #000;
+}
+#prototype p {
+   line-height: 30px;
+   color: #333;
 }
 
 #prototype .header-col { padding-top: 9px; }
@@ -406,7 +411,6 @@ ul#nav li a:active { background-color: transparent !important; }
 /* ------------------------------------------------------------------ */
 
 #process {
-   background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 150px;
 }
@@ -417,6 +421,13 @@ ul#nav li a:active { background-color: transparent !important; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+#process h2 {
+   color: #fff;
+}
+#process p {
+   line-height: 30px;
+   color: #ccc;
 }
 
 /* process Content */
@@ -633,7 +644,6 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #team {
-   background: black;
    padding-top: 96px;
    padding-bottom: 160px;
    color: #636363;
@@ -659,6 +669,13 @@ call-to-action .button {
    color: #ebeeee;
 }
 
+#team h2 {
+   color: #fff;
+}
+#team p {
+   line-height: 30px;
+   color: #ccc;
+}
 #team h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
@@ -813,7 +830,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .floating-image {
    position: absolute;
    animation: floatUpDown 3s ease-in-out infinite;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 @keyframes floatUpDown {
    0%, 100% {
@@ -844,4 +861,26 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .navbar ul li > :not(.active) {
    color: white;
+}
+
+/* Define background styles */
+.section-background {
+   background-size: cover;
+   background-attachment: fixed; /* Fix the background image */
+}
+ 
+/* Define background image for specific sections */
+.about-background {
+   background-blend-mode: multiply;
+   background-color: rgba(40, 40, 40, 1);
+}
+.prototype-background {
+   box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.8);
+}
+.process-background {
+   box-shadow: inset 0 0 0 2000px rgba(40, 40, 40, 0.95);
+}
+.team-background {
+   background-blend-mode: multiply;
+   background-color: rgba(40, 40, 40, 1);
 }

@@ -6,7 +6,7 @@ class Process extends Component {
     if (!this.props.data) return null;
 
     return (
-      <section id="process">
+      <section id="process" className="section-background process-background" style={{backgroundImage: `images/car_interior.png`}}>
         <Fade left duration={1000} distance="40px">
           <div className="row" style={{ marginBottom: "40px" }}>
             <div className="twelve columns collapsed body-text center-text">
