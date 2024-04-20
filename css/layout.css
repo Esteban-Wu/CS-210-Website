@@ -813,7 +813,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .floating-image {
    position: absolute;
    animation: floatUpDown 3s ease-in-out infinite;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 @keyframes floatUpDown {
    0%, 100% {
