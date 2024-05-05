@@ -15,7 +15,7 @@ class Prototype extends Component {
     if (!this.props.data) return null;
 
     return (
-      <section id="prototype" className="section-background prototype-background" style={{backgroundImage: `images/car_interior.png`}}>
+      <section id="prototype" className="section-background prototype-background">
         <Slide left duration={1300}>
           <div className="row">
             <div className="seven columns main-col" style={{ height: '320px' }}>

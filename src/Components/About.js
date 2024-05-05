@@ -20,9 +20,12 @@ class About extends Component {
       arrows: false,
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 1500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      pauseOnDotsHover: true,
       customPaging: function (i) {
         return (
           <a>
@@ -34,7 +37,7 @@ class About extends Component {
     };
 
     return (
-      <section id="about" className="about-background section-background" style={{backgroundImage: `images/car_interior.png`}}>
+      <section id="about" className="about-background section-background">
         <Fade duration={1000}>
           <div className="row">
               <div className="twelve columns main-col body-text">

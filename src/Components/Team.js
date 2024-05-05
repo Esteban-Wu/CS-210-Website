@@ -6,7 +6,7 @@ class Team extends Component {
     if (!this.props.data) return null;
 
     return (
-      <section id="team" className="section-background team-background" style={{backgroundImage: `images/car_interior.png`}}>
+      <section id="team" className="section-background team-background">
         <Fade bottom duration={1000}>
           <div className="row">
             <div className="twelve columns collapsed body-text center-text">
