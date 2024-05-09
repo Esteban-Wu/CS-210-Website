@@ -1,29 +1,18 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { Link } from "react-scroll";
 
 class Footer extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const networks = this.props.data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
-
     return (
       <footer>
         <div className="row">
           <Fade bottom>
-            <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
-
+            <div className="twelve columns body-text">
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li>&copy; Copyright 2024 Team KERBY</li>
                 <li>
                   Design by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
@@ -35,9 +24,17 @@ class Footer extends Component {
           </Fade>
 
           <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <Link
+              className="link"
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={750}
+            >
               <i className="icon-up-open"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

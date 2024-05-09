@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { Link } from "react-scroll";
 
 class Header extends Component {
   render() {
@@ -8,14 +9,13 @@ class Header extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
-    const name = this.props.data.name;
     const description = this.props.data.description;
 
     return (
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
 
-        <nav id="nav-wrap">
+        <nav className="navbar" id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
@@ -23,35 +23,75 @@ class Header extends Component {
             Hide navigation
           </a>
 
-          <ul id="nav" className="nav">
+          <ul id="nav" style={{ backgroundColor: 'black', fontFamily: 'Marion' }}>
             <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
+              <Link
+                className="link"
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={750}
+              >
+                Mercedes-Benz AI Palette
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <Link
+                className="link"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={750}
+              >
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
+              <Link
+                className="link"
+                activeClass="active"
+                to="prototype"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={750}
+              >
+                Prototype
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
+              <Link
+                className="link"
+                activeClass="active"
+                to="process"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={750}
+              >
+                Process
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
+              <Link
+                className="link"
+                activeClass="active"
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={750}
+              >
+                Team
+              </Link>
             </li>
           </ul>
         </nav>
@@ -59,7 +99,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">Mercedes-Benz AI Palette</h1>
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}.</h3>
@@ -79,9 +119,17 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <Link
+            className="link"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={750}
+          >
             <i className="icon-down-circle"></i>
-          </a>
+          </Link>
         </p>
       </header>
     );
