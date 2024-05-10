@@ -9,6 +9,7 @@ import Prototype from "./Components/Prototype";
 import Team from "./Components/Team";
 import Process from "./Components/Process";
 import Splash from "./Components/Splash";
+import { PopupWidget } from "react-calendly";
 
 class App extends Component {
   constructor(props) {
@@ -57,6 +58,13 @@ class App extends Component {
           ) :
           (
             <div>
+              <PopupWidget
+                url="https://calendly.com/kerwy/user-testing"
+                rootElement={document.getElementById("root")}
+                text="Book a Test Session"
+                textColor="#ffffff"
+                color="#BC2C22"
+              />
               <Header data={this.state.resumeData.main} />
               <About data={this.state.resumeData.main} />
               <Prototype data={this.state.resumeData.resume} />

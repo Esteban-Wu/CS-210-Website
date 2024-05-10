@@ -102,16 +102,16 @@ class Header extends Component {
               <h1 className="responsive-headline">Mercedes-Benz AI Palette</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>Elevating the car experience with GenAI personas</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href={"https://calendly.com/kerwy/user-testing"} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Book a Test Session
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href={"https://github.com/cs210/2024-Mercedes-1"} className="button btn github-btn">
+                  <i className="fa fa-github"></i>GitHub
                 </a>
               </ul>
             </Fade>

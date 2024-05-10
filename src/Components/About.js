@@ -53,11 +53,11 @@ class About extends Component {
                         as turns, accelerations, and offer <span className="bold-body-text red">persona-specific interactions</span>.
                       </p>
                     </div>
-                    <div className="four columns" style={{ height: '220px' }}>
+                    <div className="five columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
-                          src="images/visual.png"
+                          src="images/about_visual1.png"
                           alt="Visual"
                         />
                       </div>
@@ -73,11 +73,11 @@ class About extends Component {
                         and sound like a real friend.
                       </p>
                     </div>
-                    <div className="four columns" style={{ height: '220px' }}>
+                    <div className="five columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
-                          src="images/visual.png"
+                          src="images/about_visual2.png"
                           alt="Visual"
                         />
                       </div>
@@ -88,15 +88,15 @@ class About extends Component {
                     <div className="seven columns main-col body-text">
                       <p>Each persona not only engages in conversations with the driver but also reacts to various 
                         <span className="bold-body-text red"> driving events detected with sensors</span> mounted on a physical minicar. We aim to implement two events 
-                        (honking and turns) as high-priority goals in our MVP, with three additional events (acceleration, parking, maintaining distance from other vehicles) 
+                        (honking and acceleration) as high-priority goals in our MVP, with three additional events (turning, parking, maintaining distance from other vehicles) 
                         set as stretch goals.
                       </p>
                     </div>
-                    <div className="four columns" style={{ height: '220px' }}>
+                    <div className="five columns" style={{ height: '350px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
-                          src="images/visual.png"
+                          src="images/about_visual3.jpeg"
                           alt="Visual"
                         />
                       </div>
@@ -107,15 +107,15 @@ class About extends Component {
                     <div className="seven columns main-col body-text">
                       <p>Additionally, each persona offers unique features: the Football Commentator provides updates on 
                         <span className="bold-body-text red"> football news</span>, the Old Sport 
-                        <span className="bold-body-text red"> introduces new songs</span> (a stretch goal), and Art & Nature utilizes computer vision to 
+                        <span className="bold-body-text red"> introduces new songs</span>, and Art & Nature utilizes computer vision to 
                         <span className="bold-body-text red"> narrate landscapes</span> and <span className="bold-body-text red"> respond to the driver’s gestures</span>.
                       </p>
                     </div>
-                    <div className="four columns" style={{ height: '220px' }}>
+                    <div className="five columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
-                          src="images/visual.png"
+                          src="images/about_visual6.png"
                           alt="Visual"
                         />
                       </div>
@@ -130,11 +130,11 @@ class About extends Component {
                         <span className="bold-body-text red"> RAG</span> for domain-specific knowledge insertion to enhance conversation quality.
                       </p>
                     </div>
-                    <div className="four columns" style={{ height: '220px' }}>
+                    <div className="five columns" style={{ height: '220px' }}>
                       <div className="floating-image-container">
                         <img
                           className="floating-image"
-                          src="images/visual.png"
+                          src="images/about_visual5.png"
                           alt="Visual"
                         />
                       </div>
