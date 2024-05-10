@@ -110,6 +110,8 @@ class Header extends Component {
                 <a href={"https://calendly.com/kerwy/user-testing"} className="button btn project-btn">
                   <i className="fa fa-book"></i>Book a Test Session
                 </a>
+              </ul>
+              <ul className="social">
                 <a href={"https://github.com/cs210/2024-Mercedes-1"} className="button btn github-btn">
                   <i className="fa fa-github"></i>GitHub
                 </a>
