@@ -41,7 +41,8 @@ class About extends Component {
         <Fade duration={1000}>
           <div className="row">
               <div className="twelve columns main-col body-text">
-                <h2 style={{ fontFamily: 'Marrion', fontSize: 32 }}>About</h2>
+                <h1 style={{ fontFamily: 'Marrion', fontSize: 32, color: 'white' }}>About the Mercedes AI Palette</h1>
+                <h2 style={{ fontFamily: 'Marrion', fontSize: 24, color: 'white' }}>An AI Conversational Infotainment System</h2>
                 <Slider {...settings} style={{paddingTop: 60, paddingBottom: 100}}>
 
                   <div className="row">
@@ -65,7 +66,7 @@ class About extends Component {
                   </div>
 
                   <div className="row">
-                    <div className="seven columns main-col body-text">
+                    <div className="seven columns main-col body-text" >
                       <p>We built our personas in an app on the <span className="bold-body-text red">Android</span> platform using  
                         <span className="bold-body-text red"> conversational LLMs</span> and 
                         <span className="bold-body-text red"> text-to-speech</span> synthesis. <span className="bold-body-text red">Fine-tuned</span> on specific 
