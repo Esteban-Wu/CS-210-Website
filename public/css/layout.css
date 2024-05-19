@@ -885,3 +885,23 @@ footer .social-links li:first-child { margin-left: 0; }
    background-blend-mode: multiply;
    background-color: rgba(40, 40, 40, 1);
 }
+
+.video-container {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 120%;
+   overflow: visible;
+   z-index: -1; /* video is behind content */
+ }
+ 
+ .background-video {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transform: translate(-50%, -50%);
+ }
