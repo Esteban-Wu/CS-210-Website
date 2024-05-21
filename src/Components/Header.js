@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import { Link } from "react-scroll";
+import David from "./David.mp4";
 
 class Header extends Component {
   render() {
@@ -13,8 +14,6 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
-
         <nav className="navbar" id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -97,6 +96,11 @@ class Header extends Component {
         </nav>
 
         <div className="row banner">
+          <div className="video-container">
+            <video autoPlay controls className="background-video">
+              <source src={David} type="video/mp4" />
+            </video>
+          </div>
           <div className="banner-text">
             <Fade bottom>
               <h1 className="responsive-headline">Mercedes-Benz AI Palette</h1>

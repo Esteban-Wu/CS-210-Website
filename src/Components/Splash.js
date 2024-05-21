@@ -1,3 +1,5 @@
+import SplashButton from "./images/splash_button.png";
+
 function Splash(props) {
     return ( 
         <div
@@ -8,17 +10,18 @@ function Splash(props) {
             alignItems: 'center',
             justifyContent: 'center',
         }}>
-            <button 
+            <img 
+                src={SplashButton}
+                alt="Splash Button"
                 style={{
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    marginTop:'5px'
+                    marginTop: '5px',
+                    cursor: 'pointer' // Add cursor pointer to indicate it's clickable
                 }}
-                onClick = {props.handler}
-            >
-                Press me!
-            </button>
+                onClick={props.handler}
+            />
         </div>
     );
 }
