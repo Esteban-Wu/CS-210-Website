@@ -8,15 +8,15 @@ class Process extends Component {
     return (
       <section id="process" className="section-background process-background">
         <Fade left duration={1000} distance="40px">
-          <div className="row" style={{ marginBottom: "40px" }}>
+          <div className="row" style={{ marginBottom: "30px" }}>
             <div className="twelve columns collapsed body-text center-text">
               <h2 style={{ fontFamily: 'Marrion', fontSize: 32 }}>Process</h2>
               <p>Here are the steps we took in our design and development process.</p>
             </div>
           </div>
 
-          <div className="row" style={{ marginBottom: "40px" }}>
-            <div className="three columns center-text">
+          <div className="row" style={{ marginBottom: "60px" }}>
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_rocket.svg" alt="Icon"/>
               </div>
@@ -26,7 +26,7 @@ class Process extends Component {
                 <span className="button-text">Proposal (PDF)</span>
               </a>
             </div>
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_announce.svg" alt="Icon"/>
               </div>
@@ -36,7 +36,7 @@ class Process extends Component {
                 <span className="button-text">Slides (PDF)</span>
               </a>
             </div>          
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_charts.svg" alt="Icon"/>
               </div>
@@ -46,7 +46,7 @@ class Process extends Component {
                 <span className="button-text">Diagram (PNG)</span>
               </a>
             </div>          
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_coins.svg" alt="Icon"/>
               </div>
@@ -58,7 +58,7 @@ class Process extends Component {
             </div> 
           </div>
           <div className="row process-icon">
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_person.svg" alt="Icon"/>
               </div>
@@ -68,7 +68,7 @@ class Process extends Component {
                 <span className="button-text">Profile (Canva Design)</span>
               </a>
             </div>
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_rocket2.svg" alt="Icon"/>
               </div>
@@ -78,7 +78,7 @@ class Process extends Component {
                 <span className="button-text">Coming Soon</span>
               </a>
             </div>          
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_support.svg" alt="Icon"/>
               </div>
@@ -88,7 +88,7 @@ class Process extends Component {
                 <span className="button-text">Coming Soon</span>
               </a>
             </div>          
-            <div className="three columns center-text">
+            <div className="three columns center-text" style={{ marginTop: "30px" }}>
               <div className="process-icon">
                 <img src="images/icon_announce2.svg" alt="Icon"/>
               </div>
