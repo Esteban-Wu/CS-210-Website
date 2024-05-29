@@ -17,7 +17,8 @@ class App extends Component {
     this.state = {
       splash: true,
       foo: "bar",
-      resumeData: {}
+      resumeData: {},
+      fade: ""
     };
     this.handlerOnClick = this.handlerOnClick.bind(this);
 
@@ -26,7 +27,11 @@ class App extends Component {
   }
 
   handlerOnClick() {
-    this.setState({splash: !this.state.splash})
+    this.setState({ fade: "fade-out" });
+    setTimeout(() => {
+      this.setState({ splash: false, fade: "fade-in" });
+    }, 1000); // Match this duration with the CSS animation duration
+    // this.setState({splash: !this.state.splash})
   }
 
   getResumeData() {
@@ -50,7 +55,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className={`App ${this.state.fade}`}>
       {
         (this.state.splash) ? 
           (
