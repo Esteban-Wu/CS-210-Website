@@ -29,11 +29,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 60px/1.1em 'Marion';
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'opensans-semibold', sans-serif;
       width: 80%;
    }
    header .banner-text hr {

@@ -56,13 +56,13 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 60px/1.1em 'Marion', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'opensans-semibold', sans-serif;
    color: #ddd;
    margin: 0 auto;
    width: 70%;
@@ -783,10 +783,10 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #BC2C22 !important;
 }
 .github-btn{
-   background-color: #34495e !important;
+   background-color: #787878 !important;
 }
 
 /* Additional CSS */
@@ -884,6 +884,12 @@ footer .social-links li:first-child { margin-left: 0; }
 .team-background {
    background-blend-mode: multiply;
    background-color: rgba(40, 40, 40, 1);
+}
+.custom-button {
+   padding: 10px;
+}
+.process-icon {
+   margin-top: 24px;
 }
 .video-container {
    position: absolute;

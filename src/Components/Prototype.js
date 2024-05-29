@@ -22,7 +22,7 @@ class Prototype extends Component {
               <div className="floating-image-container">
                 <img
                   className="floating-image"
-                  src="images/visual.png"
+                  src="images/about_visual2.png"
                   alt="Visual"
                 />
               </div>
@@ -32,10 +32,10 @@ class Prototype extends Component {
               <p>Try out our most recent prototype of the Mercedes-Benz AI Palette on your tablet.</p>
               <row>
                 <ul className="social">
-                  <a href={"#"} className="button btn primary-btn">
+                  <a href={"https://drive.google.com/file/d/1YcotKdVsUu_imWog_RkpUcDjcdlmt9bd/view?usp=sharing"} className="button btn primary-btn">
                   <span className="button-text">Download</span>
                   </a>
-                  <a href={"#"} className="button btn secondary-btn">
+                  <a href={"https://github.com/cs210/Mercedes1-2024-App"} className="button btn secondary-btn">
                   <span className="button-text">GitHub</span>
                   </a>
                 </ul>
