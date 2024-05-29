@@ -65,7 +65,7 @@ class Process extends Component {
               <p className="bold-body-text">Real Customer Profile</p>
               <p className="body-text">We connected with two people who are our target customers and created profiles for them.</p>
               <a href={"https://www.canva.com/design/DAGDUmHMKT4/vKJZDT8G63vg2QXlM3Hb_g/view?utm_content=DAGDUmHMKT4&utm_campaign=designshare&utm_medium=link&utm_source=editor"} className="custom-button btn primary-btn">
-                <span className="button-text">Profile (Canva Design)</span>
+                <span className="button-text">Profile (Canva)</span>
               </a>
             </div>
             <div className="three columns center-text" style={{ marginTop: "30px" }}>
