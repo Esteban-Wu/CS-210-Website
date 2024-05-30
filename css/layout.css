@@ -887,7 +887,7 @@ footer .social-links li:first-child { margin-left: 0; }
  
 /* Define background image for specific sections */
 .about-background {
-   background-color: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
 }
 .prototype-background {
    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.8);
@@ -896,7 +896,7 @@ footer .social-links li:first-child { margin-left: 0; }
    box-shadow: inset 0 0 0 2000px rgba(40, 40, 40, 0.95);
 }
 .team-background {
-   background-color: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
 }
 .custom-button {
    padding: 10px;
