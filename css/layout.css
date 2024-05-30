@@ -806,14 +806,12 @@ footer .social-links li:first-child { margin-left: 0; }
    color: #BC2C22
 }
 .button-text {
-   font-family: 'opensans-bold';
-   font-weight: bold;
+   font-family: 'opensans-semibold';
    font-size: 16px;
    color: white;
 }
 .button-text-process {
-   font-family: 'opensans-bold';
-   font-weight: bold;
+   font-family: 'opensans-semibold';
    font-size: 12px;
    color: white;
 }
