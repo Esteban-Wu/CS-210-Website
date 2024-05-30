@@ -27,11 +27,11 @@ class App extends Component {
   }
 
   handlerOnClick() {
+    // Fade animation
     this.setState({ fade: "fade-out" });
     setTimeout(() => {
       this.setState({ splash: false, fade: "fade-in" });
-    }, 1000); // Match this duration with the CSS animation duration
-    // this.setState({splash: !this.state.splash})
+    }, 1000);
   }
 
   getResumeData() {
