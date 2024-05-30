@@ -54,15 +54,20 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { 
+   padding-top: 20px;
+   width: 100%; 
+   background-color: #000000BB;
+   margin-bottom: 250px;
+}
 header .banner-text h1 {
-   font: 60px/1.1em 'Marion', sans-serif;
+   font: 60px/1.1em 'Marion', 'Marion';
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'opensans-semibold', sans-serif;
+   font: 18px/1.9em 'opensans-semibold', 'opensans-semibold';
    color: #ddd;
    margin: 0 auto;
    width: 70%;
@@ -74,8 +79,7 @@ header .banner-text h3 a {
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* header social links */
@@ -779,14 +783,15 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-left: 30px;
    padding-right: 30px; 
 }
-.social .btn i{
-   margin-right: 15px;
+.btn i{
+   margin-right: 10px;
+   color: white;
 }
 .project-btn{
-   background-color: #BC2C22 !important;
+   background-color: #787878 !important;
 }
 .github-btn{
-   background-color: #787878 !important;
+   background-color: #BC2C22 !important;
 }
 
 /* Additional CSS */
@@ -801,10 +806,14 @@ footer .social-links li:first-child { margin-left: 0; }
    color: #BC2C22
 }
 .button-text {
-   font-weight: bold;
+   font-family: 'opensans-semibold';
    font-size: 16px;
    color: white;
-   letter-spacing: 1px;
+}
+.button-text-process {
+   font-family: 'opensans-semibold';
+   font-size: 12px;
+   color: white;
 }
 .logo {
    margin-top: 0px;
@@ -866,7 +875,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Define background styles */
 .section-background {
    background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
-   background-size: cover;
+   background-size: 100% 100%;
    background-attachment: fixed; /* Fix the background image */
 }
  
@@ -889,7 +898,7 @@ footer .social-links li:first-child { margin-left: 0; }
    padding: 10px;
 }
 .process-icon {
-   margin-top: 24px;
+   margin-top: 50px;
 }
 .video-container {
    position: absolute;
@@ -945,4 +954,12 @@ footer .social-links li:first-child { margin-left: 0; }
    to {
       opacity: 1;
    }
+}
+header .banner-text h1 {
+   font: 60px 'Marion';
+   letter-spacing: -1px;      
+}
+header .banner-text h3 {
+   font: 17px 'opensans-semibold', sans-serif;
+   width: 80%;
 }

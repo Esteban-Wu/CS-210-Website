@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import David from "./David.mp4";
 
 class Prototype extends Component {
   getRandomColor() {
@@ -32,14 +33,27 @@ class Prototype extends Component {
               <p>Try out our most recent prototype of the Mercedes-Benz AI Palette on your tablet.</p>
               <row>
                 <ul className="social">
-                  <a href={"https://drive.google.com/file/d/1YcotKdVsUu_imWog_RkpUcDjcdlmt9bd/view?usp=sharing"} className="button btn primary-btn">
-                  <span className="button-text">Download</span>
+                  <a href={"https://drive.google.com/file/d/1YcotKdVsUu_imWog_RkpUcDjcdlmt9bd/view?usp=sharing"} className="button btn github-btn">
+                    <i className="fa fa-download"></i><span className="button-text">Download</span>
                   </a>
-                  <a href={"https://github.com/cs210/Mercedes1-2024-App"} className="button btn secondary-btn">
-                  <span className="button-text">GitHub</span>
+                  <a href={"https://github.com/cs210/Mercedes1-2024-App"} className="button btn project-btn">
+                    <i className="fa fa-github"></i><span className="button-text">GitHub</span>
                   </a>
                 </ul>
               </row>
+            </div>
+          </div>
+          <div className="row">
+            <div className="twelve columns" style={{ height: '320px', marginTop: '80px' }}>
+              <p>Watch our use case simulation video to see the Mercedes car drive through a lush green forest,
+                narrated by David Attenborough. This video showcases the immersive capabilities and user experience 
+                enhancements made possible by our AI-driven personas.
+              </p>
+              <div style={{ width: '100%' }}>
+                <video controls loop playsInline preload="metadata" style={{ width: '100%' }}>
+                  <source src={David+"#t=0.1"} type="video/mp4" />
+                </video>
+              </div>
             </div>
           </div>
         </Slide>

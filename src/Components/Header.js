@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import { Link } from "react-scroll";
-import David from "./David.mp4";
+import CoolVideo from "./cool_video.mp4";
 
 class Header extends Component {
   render() {
@@ -97,8 +97,8 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="video-container">
-            <video autoPlay loop className="background-video" playsInline>
-              <source src={David} type="video/mp4" />
+            <video autoPlay muted loop className="background-video" playsInline>
+              <source src={CoolVideo} type="video/mp4" />
             </video>
           </div>
           <div className="banner-text">
@@ -110,16 +110,9 @@ class Header extends Component {
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={"https://calendly.com/kerwy/user-testing"} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Book a Test Session
-                </a>
-              </ul>
-              <ul className="social">
-                <a href={"https://github.com/cs210/2024-Mercedes-1"} className="button btn github-btn">
-                  <i className="fa fa-github"></i>GitHub
-                </a>
-              </ul>
+              <a href={"https://github.com/cs210/2024-Mercedes-1"} className="button btn github-btn">
+                <i className="fa fa-github"></i>GitHub
+              </a>
             </Fade>
           </div>
         </div>
