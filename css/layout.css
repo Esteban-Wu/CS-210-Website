@@ -874,9 +874,18 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Define background styles */
 .section-background {
-   background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
+   /* background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
    background-size: 100% 100%;
-   background-attachment: fixed; /* Fix the background image */
+   background-attachment: fixed; Fix the background image */
+
+   height: 100vh; /* Viewport height */
+    width: 100vw;  /* Viewport width */
+    background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
+    background-size: 100% 100%; /* Stretch to fit */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center center; /* Center the image */
+    overflow: hidden;
+    background-attachment: fixed;
 }
  
 /* Define background image for specific sections */
