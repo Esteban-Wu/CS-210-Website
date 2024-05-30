@@ -106,7 +106,7 @@ class Header extends Component {
               <h1 className="responsive-headline">Mercedes-Benz AI Palette</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>Elevating the car experience with GenAI personas</h3>
+              <h3>Entertaining the car experience with GenAI personas</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
