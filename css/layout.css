@@ -806,6 +806,7 @@ footer .social-links li:first-child { margin-left: 0; }
    color: #BC2C22
 }
 .button-text {
+   font-family: 'opensans-bold';
    font-weight: bold;
    font-size: 16px;
    color: white;
@@ -955,4 +956,12 @@ footer .social-links li:first-child { margin-left: 0; }
    to {
       opacity: 1;
    }
+}
+header .banner-text h1 {
+   font: 60px 'Marion';
+   letter-spacing: -1px;      
+}
+header .banner-text h3 {
+   font: 17px 'opensans-semibold', sans-serif;
+   width: 80%;
 }
