@@ -886,7 +886,7 @@ footer .social-links li:first-child { margin-left: 0; }
 @media (max-width: 1024px) {
    .section-background {
       background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
-      background-size: 100%;
+      background-size: 100vw;
       background-repeat: no-repeat;
    }
 }
