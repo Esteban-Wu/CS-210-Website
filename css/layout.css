@@ -879,8 +879,16 @@ footer .social-links li:first-child { margin-left: 0; }
    background-attachment: fixed; Fix the background image */
 
     background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
-    background-size: cover; /* Stretch to fit */
+    background-size: cover;
     background-attachment: fixed;
+}
+
+@media (max-width: 1024px) {
+   .section-background {
+      background: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg") no-repeat center center fixed; 
+      background-size: cover;
+      background-attachment: scroll;
+   }
 }
  
 /* Define background image for specific sections */
