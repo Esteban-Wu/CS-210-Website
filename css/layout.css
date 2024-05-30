@@ -880,8 +880,6 @@ footer .social-links li:first-child { margin-left: 0; }
 
     background-image: url("https://w.wallhaven.cc/full/39/wallhaven-39jx13.jpg");
     background-size: cover; /* Stretch to fit */
-    background-repeat: no-repeat; /* Prevent repeating */
-    background-position: center center; /* Center the image */
     background-attachment: fixed;
 }
  
