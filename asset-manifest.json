@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CS-210-Website/static/css/main.eb0aa72f.chunk.css",
-    "main.js": "/CS-210-Website/static/js/main.d959490a.chunk.js",
-    "main.js.map": "/CS-210-Website/static/js/main.d959490a.chunk.js.map",
+    "main.js": "/CS-210-Website/static/js/main.96008adf.chunk.js",
+    "main.js.map": "/CS-210-Website/static/js/main.96008adf.chunk.js.map",
     "runtime-main.js": "/CS-210-Website/static/js/runtime-main.bb084cba.js",
     "runtime-main.js.map": "/CS-210-Website/static/js/runtime-main.bb084cba.js.map",
     "static/css/2.c6ba9280.chunk.css": "/CS-210-Website/static/css/2.c6ba9280.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.eb0aa72f.chunk.css.map": "/CS-210-Website/static/css/main.eb0aa72f.chunk.css.map",
     "static/js/2.b01e10c7.chunk.js.LICENSE.txt": "/CS-210-Website/static/js/2.b01e10c7.chunk.js.LICENSE.txt",
     "static/media/David.5253e9d8.mp4": "/CS-210-Website/static/media/David.5253e9d8.mp4",
+    "static/media/cool_video.921db372.mp4": "/CS-210-Website/static/media/cool_video.921db372.mp4",
     "static/media/slick-theme.css": "/CS-210-Website/static/media/slick.c94f7671.ttf",
     "static/media/splash_button.22850e0c.png": "/CS-210-Website/static/media/splash_button.22850e0c.png"
   },
@@ -23,6 +24,6 @@
     "static/css/2.c6ba9280.chunk.css",
     "static/js/2.b01e10c7.chunk.js",
     "static/css/main.eb0aa72f.chunk.css",
-    "static/js/main.d959490a.chunk.js"
+    "static/js/main.96008adf.chunk.js"
   ]
 }
