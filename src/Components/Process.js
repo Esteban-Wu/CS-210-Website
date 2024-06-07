@@ -74,8 +74,12 @@ class Process extends Component {
               </div>
               <p className="bold-body-text">MVP</p>
               <p className="body-text">We built our minimum viable prototype using Android, Python, Firebase, Arduino, and a minicar.</p>
-              <a href={"#"} className="custom-button btn project-btn">
-                <i className="fa fa-bullhorn"></i><span className="button-text-process">Coming Soon</span>
+              <a href={"https://drive.google.com/file/d/1D1imY8pfHdm_5SE7988-cvykN6elIAxN/view?usp=sharing"} className="custom-button btn github-btn">
+                <i className="fa fa-download"></i><span className="button-text-process">Android App (APK)</span>
+              </a>
+              <div style={{ marginTop: "20px" }}/>
+              <a href={"https://github.com/cs210/Mercedes1-2024-App"} className="custom-button btn github-btn">
+                <i className="fa fa-github"></i><span className="button-text-process">Source Code</span>
               </a>
             </div>          
             <div className="three columns center-text" style={{ marginTop: "30px" }}>
@@ -84,8 +88,12 @@ class Process extends Component {
               </div>
               <p className="bold-body-text">Product Launch</p>
               <p className="body-text">We launched our product to external users, measured our KPIs, and improved our MVP based on feedback.</p>
-              <a href={"#"} className="custom-button btn project-btn">
-                <i className="fa fa-bullhorn"></i><span className="button-text-process">Coming Soon</span>
+              <a href={"https://lookerstudio.google.com/reporting/8dd7d0fc-3d34-407f-a0b9-9b3e4b65e8ce"} className="custom-button btn github-btn">
+                <i className="fa fa-bar-chart-o"></i><span className="button-text-process">User Testing Report</span>
+              </a>
+              <div style={{ marginTop: "20px" }}/>
+              <a href={"documents/testing_user_guide.pdf"} className="custom-button btn github-btn">
+                <i className="fa fa-info-circle"></i><span className="button-text-process">User Guide (PDF)</span>
               </a>
             </div>          
             <div className="three columns center-text" style={{ marginTop: "30px" }}>
@@ -94,8 +102,8 @@ class Process extends Component {
               </div>
               <p className="bold-body-text">Demo Video</p>
               <p className="body-text">Watch this video for a concise overview of the Mercedes-Benz AI Palette and to witness it in action.</p>
-              <a href={"#"} className="custom-button btn project-btn">
-                <i className="fa fa-bullhorn"></i><span className="button-text-process">Coming Soon</span>
+              <a href={"https://youtu.be/Zi-4ul2fnRk"} className="custom-button btn github-btn">
+                <i className="fa fa-video-camera"></i><span className="button-text-process">Video Link</span>
               </a>
             </div> 
           </div>

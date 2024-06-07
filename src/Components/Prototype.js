@@ -33,7 +33,7 @@ class Prototype extends Component {
               <p>Try out our most recent prototype of the Mercedes-Benz AI Palette on your tablet.</p>
               <row>
                 <ul className="social">
-                  <a href={"https://drive.google.com/file/d/1YcotKdVsUu_imWog_RkpUcDjcdlmt9bd/view?usp=sharing"} className="button btn github-btn">
+                  <a href={"https://drive.google.com/file/d/1D1imY8pfHdm_5SE7988-cvykN6elIAxN/view?usp=sharing"} className="button btn github-btn">
                     <i className="fa fa-download"></i><span className="button-text">Download</span>
                   </a>
                   <a href={"https://github.com/cs210/Mercedes1-2024-App"} className="button btn project-btn">
